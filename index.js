@@ -12,6 +12,14 @@ const notesRouthes= require("./server/routes/notes");
 const notessRouthes= require("./server/routes/getusers");
 const getnotessRouthes= require("./server/routes/getallnotes");
 
+app.use('/some-route', require(path.join(__dirname, 'api', 'routes', 'route.js')));
+
+if (process.env.NODE_ENV === 'production') {
+  app.use(express.static(path.join(__dirname, '../frontend', 'build')));
+  app.get('/*', (req, res) => {
+    res.sendFile(path.join(__dirname, '../frontend', 'build', 'index.html'));
+  })
+}
 //midleware
 app.use(express.json({limit: '50mb'}));
 app.use(cors());
