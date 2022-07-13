@@ -1,0 +1,115 @@
+.InputLogin
+{
+  height: 40px;
+  background-color: transparent;
+  border:0px solid rgba(0, 0, 0, 0.2);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  text-align: start;
+  font-size: 18px;
+  margin-top: 10px;
+  width: 300px;
+  font-weight: 100;
+  font-family:'Times New Roman', Times, serif
+   
+}
+.ProfileImg
+{
+  width: 100px;
+  height: 150px;
+  border-radius: 50%;
+text-align: center;
+/* margin-top: auto; */
+}
+.uploadImg
+{
+  text-align: center;
+  margin-left: 70px;
+  margin-top: 20px;
+}
+.InputLogin:focus
+{
+  border:0px solid rgba(0, 0, 0, 0.2);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  outline: none;
+}
+.InputLogin::placeholder{
+  padding-left: 10px;
+}
+
+  .buttoncontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+
+  } 
+  .buttoncontainer button
+  {
+    width: 150px;
+    color: black;
+    background: transparent;
+    border: #f8f9fd;
+    margin-top: 0px;
+    margin-left: 18%;
+    margin-bottom: 10px;
+  }
+  .buttoncontainer button:focus
+  {
+    background-color: transparent;
+    color: rgb(36, 32, 32);
+    outline-color: transparent;
+    border: none;
+    
+    outline:0 !important;
+
+  }
+
+
+  .buttoncontainer button:hover
+  {
+    background-color: transparent;
+    color: rgb(36, 32, 32);
+  }
+  .error_msg {
+    width: 200px;
+    padding: 15px;
+    margin-left: 30px;
+    font-size: 14px;
+    background-color: #f34646;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    float: left;
+  }
+  
+  .app {
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height:120vh;
+    padding-top: 100px;
+    gap: 20px;
+    margin: auto;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    background-color: #f8f9fd;
+  }
+.alreadyRegistered
+{
+   font-size: 20px;
+    margin-top: 50px;
+    margin-left: auto;
+}
+.alreadyRegistered a
+{
+    color: black;
+    border-bottom: none;
+    text-decoration: none;
+    margin-left: 12px;
+
+}
+.Footer
+{
+  width: 350px;
+}
+  
