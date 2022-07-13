@@ -42,7 +42,7 @@ app.get("*", function (_, res) {
 //init app
 connectionToMongo();
 
-const port = process.env.PORT;
+const port = process.env.PORT||8080;
 app.listen(port,()=>{
     console.log(`server started in ${port}`);
 })
