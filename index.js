@@ -27,7 +27,8 @@ app.get("/api/test", (req, res) => {
     res.send("test");
   });
   
-  app.use(express.static(path.join(__dirname, "./frontend/build")));
+  if(process.env.NODE_ENV==="production")  app.use(express.static(path.join(__dirname, "./frontend/build")));
+
   
 app.get("*", function (_, res) {
     res.sendFile(
