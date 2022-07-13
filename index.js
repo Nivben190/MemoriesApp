@@ -3,7 +3,7 @@ const express = require('express');
 require('dotenv').config();
 const app =express();
 const cookieParser = require('cookie-parser');
-
+const path =require('path');
 const cors= require('cors');
 const connectionToMongo=require('./server/db')
 const userRouthes= require("./server/routes/users");
@@ -22,12 +22,25 @@ app.use("/api/notes",notesRouthes);
 app.use("/api/auth",authRouthes);
 app.use("/api/getusers",notessRouthes);
 app.use("/api/getallnotes",getnotessRouthes);
-app.use('/uploads',express.static("uploads"))
 //connect to mongo
-connectionToMongo();
-
-
+app.get("/api/test", (req, res) => {
+    res.send("test");
+  });
+  
+  app.use(express.static(path.join(__dirname, "./frontend/build")));
+  
+app.get("*", function (_, res) {
+    res.sendFile(
+      path.join(__dirname, "./frontend/build/index.html"),
+      function (err) {
+        if (err) {
+          res.status(500).send(err);
+        }
+      }
+    );
+  });
 //init app
+connectionToMongo();
 
 const port = process.env.PORT;
 app.listen(port,()=>{
