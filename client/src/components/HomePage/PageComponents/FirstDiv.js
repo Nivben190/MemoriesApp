@@ -7,7 +7,7 @@ function FirstDiv () {
     <div className={styles.bgDiv}>
     <div className={styles.center}>
     <Typical
-        steps={[ 'Here for your creative journey', 1200]}
+        steps={[ 'Here for your creative journey', 1000]}
         loop={Infinity}
         wrapper="h1"
       />

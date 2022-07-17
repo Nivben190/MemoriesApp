@@ -23,23 +23,7 @@ app.use("/api/auth",authRouthes);
 app.use("/api/getusers",notessRouthes);
 app.use("/api/getallnotes",getnotessRouthes);
 //connect to mongo
-app.get("/api/test", (req, res) => {
-    res.send("test");
-  });
-  
-  if(process.env.NODE_ENV==="production")  app.use(express.static(path.join(__dirname, "./frontend/build")));
 
-  
-app.get("*", function (_, res) {
-    res.sendFile(
-      path.join(__dirname, "./frontend/build/index.html"),
-      function (err) {
-        if (err) {
-          res.status(500).send(err);
-        }
-      }
-    );
-  });
 //init app
 connectionToMongo();
 
