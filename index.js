@@ -33,6 +33,3 @@ app.listen(port,()=>{
 })
 
 
-const imageRouter=require('./server/routes/uploads')
-app.use('/images',imageRouter)
-

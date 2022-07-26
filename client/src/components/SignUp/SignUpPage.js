@@ -13,7 +13,6 @@ import { useNavigate } from "react-router-dom";
 
 const SignUpPage = (props) => {
 
-
   //#region  Consts
   const {profileImage,setProfileImage,isProfile,setIsProfile} = useContext(UserContext);
   const [data, setData] = useState({

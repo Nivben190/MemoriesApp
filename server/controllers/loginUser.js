@@ -14,11 +14,10 @@ const bcrypt =require("bcrypt");
         const user = await User.findOne({email:req.body.email});
         if(!user) return res.status(401).send({message: "Invalid email or Password"});
 
-        const validPassword= await bcrypt.compare(req.body.password,user.password);
+        const validPassword=await bcrypt.compare(req.body.password,user.password);
         if(!validPassword) return res.status(401).send({message: "Invalid email or Password"});
 
         const token =user.generateAuthToken();
-        
        
         res.status(200).send({ data:token,message: "Logged in Succesfuly", });
   

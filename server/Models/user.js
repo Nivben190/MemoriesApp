@@ -4,6 +4,7 @@ const Joi =require("joi");
 const {Notes} =require("./Notes")
 const passwordComplexity =require("joi-password-complexity");
 const { object, string } = require("joi");
+
 const noteSchema= mongoose.Schema({
     Header:{type:String,require:true},
     Body:{type:String,require:true},
@@ -31,7 +32,7 @@ userSchema.methods.generateAuthToken= function(){
     return token;
 }
 
-const User= mongoose.model("user",userSchema);
+const User= mongoose.model("userim",userSchema);
 
 const validate=(data)=>{
     const schema=Joi.object({

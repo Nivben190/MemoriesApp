@@ -1,8 +1,6 @@
 const router =require("express").Router();
-const { Note } = require("@mui/icons-material");
-const { default: mongoose } = require("mongoose");
 const { Notes } = require("../Models/Notes");
-const{User,getUser}=require('../Models/user')
+const{User}=require('../Models/user')
 const multer=require('multer');
 
 

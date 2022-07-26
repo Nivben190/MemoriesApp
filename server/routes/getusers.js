@@ -1,6 +1,4 @@
 const router =require("express").Router();
-const { Note } = require("@mui/icons-material");
-const { Notes } = require("../Models/Notes");
 const{User}=require('../Models/user')
 
 router.post('/',async (req,res)=>{
