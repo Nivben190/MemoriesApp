@@ -1,4 +1,14 @@
+
+<img width="440" alt="צילום מסך 2022-07-13 ב-20 43 25" src="https://user-images.githubusercontent.com/96342824/184144063-4a79d792-456a-4ba3-bcd0-c7d2ae2acff7.png">
+
+<img width="440" alt="צילום מסך 2022-07-13 ב-20 41 22" src="https://user-images.githubusercontent.com/96342824/184144360-01eae483-057d-4333-88e1-98889ed768c7.png">
+
+
+
+
 To Run On Your Computer, clone my repo and run  npm i on client,server, and memoriesapp directory
+
+
 
 #Full Stack Mern Memories App 
 
