@@ -6,9 +6,9 @@
 
 
 
-To Run On Your Computer, clone my repo and run  npm i on client,server, and memoriesapp directory
+To Run On Your Computer, clone my repo and run  npm i --force on client,server, and memoriesapp directory
 
-
+and run npm start on the main folder
 
 #Full Stack Mern Memories App 
 
