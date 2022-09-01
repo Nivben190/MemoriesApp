@@ -3,6 +3,7 @@
 
 <img width="440" alt="צילום מסך 2022-07-13 ב-20 41 22" src="https://user-images.githubusercontent.com/96342824/184144360-01eae483-057d-4333-88e1-98889ed768c7.png">
 
+<img width="1440" alt="צילום מסך 2022-07-13 ב-20 43 47" src="https://user-images.githubusercontent.com/96342824/187934966-33c51da9-358d-4515-8bb5-f48289bb86de.png">
 
 
 
