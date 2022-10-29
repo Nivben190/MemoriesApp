@@ -1,24 +1,20 @@
-.InputLogin
-{
+.InputLogin {
   height: 40px;
   background-color: transparent;
-  border:0px solid rgba(0, 0, 0, 0.2);
+  border: 0px solid rgba(0, 0, 0, 0.2);
   border-bottom: 1px solid rgba(0, 0, 0, 0.2);
   text-align: start;
   font-size: 18px;
   margin-top: 15px;
   width: 300px;
   font-weight: 100;
-  font-family:'Times New Roman', Times, serif
-   
+  font-family: "Times New Roman", Times, serif;
 }
-.InputLogin:focus
-{
-  border:0px solid rgba(0, 0, 0, 0.2);
+.InputLogin:focus {
+  border: 0px solid rgba(0, 0, 0, 0.2);
   border-bottom: 1px solid rgba(0, 0, 0, 0.2);
   outline: none;
   background-color: transparent;
-
 }
 .InputLogin:-webkit-autofill {
   background-color: transparent;
@@ -26,77 +22,65 @@
 
 .InputLogin:-webkit-autofill {
   background-color: transparent;
-
 }
 
-
-
- 
-  .buttoncontainer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  } 
-  .buttoncontainer button
-  {
-    width: 150px;
-    color: black;
-    background: transparent;
-    border: #f8f9fd;
-    margin-top: 30px;
-    margin-left: 70px;
-  }
-  .buttoncontainer button:hover
-  {
-    background-color: transparent;
-    color: black;
-  }
-  .ProfileImg
-{
+.buttoncontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.buttoncontainer button {
+  width: 150px;
+  color: black;
+  background: transparent;
+  border: #f8f9fd;
+  margin-top: 30px;
+  margin-left: 70px;
+}
+.buttoncontainer button:hover {
+  background-color: transparent;
+  color: black;
+}
+.ProfileImg {
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  
 }
-  .error_msg {
-    width: 200px;
-    padding: 15px;
-    margin-left: 50px;
-    margin-top: 30px;
-    margin-bottom: 0px;
-    font-size: 14px;
-    background-color: #f34646;
-    color: white;
-    border-radius: 5px;
-    text-align: center;
-  }
-  
-  .app {
-    font-family: sans-serif;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    height:110vh;
-    padding-top: 100px;
-    gap: 20px;
-    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-    background-color: #f8f9fd;
-  }
-.Footer
-{
+.error_msg {
+  width: 200px;
+  padding: 15px;
+  margin-left: 50px;
+  margin-top: 30px;
+  margin-bottom: 0px;
+  font-size: 14px;
+  background-color: #f34646;
+  color: white;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.app {
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 110vh;
+  padding-top: 100px;
+  gap: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  background-color: #f8f9fd;
+}
+.Footer {
   width: 300px;
 }
-  
-.alreadyRegistered
-{
-   font-size: 20px;
-    margin-top: 50px;
-}
-.alreadyRegistered a
-{
-    color: black;
-    border-bottom: none;
-    text-decoration: none;
-    margin-left: 10px;
 
+.alreadyRegistered {
+  font-size: 20px;
+  margin-top: 50px;
+}
+.alreadyRegistered a {
+  color: black;
+  border-bottom: none;
+  text-decoration: none;
+  margin-left: 10px;
 }

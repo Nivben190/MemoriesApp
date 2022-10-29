@@ -1,24 +1,19 @@
-@media screen and (max-width:900px) {
-    .ImgFade
-  {
+@media screen and (max-width: 900px) {
+  .ImgFade {
     margin-top: 0px;
     width: 230px;
     margin-left: 20px;
     height: 400px;
   }
-    
-  }
-  .ImgFade
-  {
-    margin-top: 60px;
-    margin-right: auto;  
-   margin-left: auto; 
-   text-align: center; 
-   box-shadow: 10px 5px 40px 20px darken(#341cac, 5%);
-  
-  }
-  .black
-  {
-    background: black;
-    background-color: black;
-  }
+}
+.ImgFade {
+  margin-top: 60px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  box-shadow: 10px 5px 40px 20px darken(#341cac, 5%);
+}
+.black {
+  background: black;
+  background-color: black;
+}

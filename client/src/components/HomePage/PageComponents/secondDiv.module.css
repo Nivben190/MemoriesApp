@@ -1,28 +1,25 @@
-.Card_HomePage p{
-    margin-top: 20px;
-    }
-    .Card_HomePage
-    {
-      margin-top: 60px;
-      margin-right: auto;  
-      margin-left: auto; 
-      text-align: center; 
-      box-shadow: 10px 5px 40px 20px darken(#341cac, 5%);
-      transition: all 1s ease-out;
-      width:300px;
-      display: block;
-      border-radius: 10px;
-    }
+.Card_HomePage p {
+  margin-top: 20px;
+}
+.Card_HomePage {
+  margin-top: 60px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  box-shadow: 10px 5px 40px 20px darken(#341cac, 5%);
+  transition: all 1s ease-out;
+  width: 300px;
+  display: block;
+  border-radius: 10px;
+}
 
- .secondDiv_HomePage
-{
+.secondDiv_HomePage {
   background: #000;
   color: white;
 }
-.joinUs_h1 
-{
+.joinUs_h1 {
   text-align: center;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   padding-top: 40px;
   font-weight: 700;
   font-size: 3rem;
