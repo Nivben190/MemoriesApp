@@ -1,12 +1,11 @@
-const router =require("express").Router();
-const Joi= require("joi");
-const loginUser =require("../controllers/loginUser");
+const router = require("express").Router();
+const Joi = require("joi");
+const loginUser = require("../controllers/userController").login;
 
-router.post("/",loginUser);
+router.post("/", loginUser);
 
-router.get('/', (req, res) => {
-    return res.redirect('/');
-  });
+router.get("/", (req, res) => {
+  return res.redirect("/");
+});
 
-
-module.exports=router;
+module.exports = router;
